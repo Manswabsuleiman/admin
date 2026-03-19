@@ -6,7 +6,7 @@ import {
   LogOut, Users, MoreHorizontal, X, Bell, CheckCircle2
 } from 'lucide-react';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://admin-server-n95q.onrender.com');
 
 const Dashboard = () => {
   const [doctors, setDoctors] = useState([]);
